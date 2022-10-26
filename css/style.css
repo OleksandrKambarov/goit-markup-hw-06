@@ -229,8 +229,6 @@ header {
     background-color: var(--button-hover-color);
 }
 
-
-
 /* section */
 .visually-hidden {
     position: absolute;
@@ -263,7 +261,6 @@ header {
 .features {
     max-width: 270px;   
 }
-
 
 .section-features {
     display: flex;
@@ -473,9 +470,9 @@ header {
 
 /* footer */
 .footer {
-background-color: var(--section-fon-color);
-margin: 0;
-padding: 60px 0px;
+    background-color: var(--section-fon-color);
+    margin: 0;
+    padding: 60px 0px;
 }
 
 .logo-footer {
@@ -509,8 +506,6 @@ padding: 60px 0px;
 .link-items .link-name:not(:last-child) {
     margin-bottom: 9px;
 }
-
-
 
 .link-items .link-adress:hover,
 .link-items .link-adress:focus {
@@ -600,7 +595,7 @@ padding: 60px 0px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -612,7 +607,6 @@ padding: 60px 0px;
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.9);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -625,9 +619,9 @@ padding: 60px 0px;
     border-radius: 4px;
     background-color: var(--primary-white-color);
 
-    transform: translate(-50%, -50%) scale(1);
-
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-close-button {
