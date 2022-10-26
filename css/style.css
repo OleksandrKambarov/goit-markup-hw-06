@@ -618,10 +618,9 @@ header {
     min-height: 581px;
     border-radius: 4px;
     background-color: var(--primary-white-color);
-
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    
     transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button {
@@ -635,7 +634,6 @@ header {
     background-color: var(--primary-white-color);
     border: 1px solid rgba(0, 0, 0, 0.1); 
     border-radius: 50%;
-    
 }
 
 /* portfolio */
