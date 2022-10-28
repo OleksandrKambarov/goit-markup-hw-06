@@ -638,6 +638,16 @@ header {
 }
 
 /* Form */
+.form-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    margin-bottom: 12px;
+}
+
 .form-label {
     display: block;
     margin-bottom: 4px;
@@ -654,7 +664,8 @@ header {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     font-size: 12px;
-    line-height: 1.166px;
+    line-height: 1.166;
+    letter-spacing: 0.01em;
     
     color: var(--title-text-color);
 }
