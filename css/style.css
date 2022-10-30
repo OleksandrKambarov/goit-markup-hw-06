@@ -783,28 +783,49 @@ header {
 
 /* Checkbox */
 .checkbox-container {
+    display: flex;
     margin-bottom: 28px;
 }
 
 .checkbox-input {
-    position: absolute;
     appearance: none;
 }
 
 .checkbox-label {
-    position: relative;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    line-height: 1.7;
+    letter-spacing: 0.03;
+    color: var(--title-text-color);
 }
 
-.checkbox-input:checked +.check-icon {
+.checkbox-input:checked +.checkbox-border {
     border: none;
-    background-color: var(--accent-colour);
+    background-color: var(--accent-color);
 }
+
+.checkbox-border {
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--primary-text-color);
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.check-icon {
+    width: 11px;
+    height: 8px;
+}
+
 
 /* button-form */
 .checkbox-button {
-    
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
     margin-bottom: 0;
 }
 
