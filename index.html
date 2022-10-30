@@ -478,20 +478,24 @@
               placeholder="Введіть текст"
             >
             </textarea>
-            <input
-              class="checkbox-input"
-              id="terms-checkbox"
-              type="checkbox"
-              name="terms-checkbox"
-            />
-            <svg class="check-icon" width="16" height="15">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
-            <label class="checkbox-label" for="terms-checkbox">
-              Погоджуюся з розсилкою та приймаю
-              <a href="#">Умови договору</a>
-            </label>
-            <button type="submit" class="check-button">Відправити</button>
+            <div class="checkbox-container">
+              <input
+                class="checkbox-input"
+                id="terms-checkbox"
+                type="checkbox"
+                name="terms-checkbox"
+              />
+              <svg class="check-icon" width="16" height="15">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+              <label class="checkbox-label" for="terms-checkbox">
+                Погоджуюся з розсилкою та приймаю
+                <a href="#">Умови договору</a>
+              </label>
+            </div>
+            <div class="checkbox-button">
+              <button type="submit" class="check-button">Відправити</button>
+            </div>
           </form>
         </div>
       </div>
